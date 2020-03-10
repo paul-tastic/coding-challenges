@@ -1,0 +1,4 @@
+exercises
+
+1. algorithms
+	a. frequency counting
