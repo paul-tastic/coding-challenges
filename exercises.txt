@@ -1,4 +1,6 @@
-exercises
+The exercises I am using for this coding challenge repo can be found across the internet.
 
-1. algorithms
-	a. frequency counting
+They mainly come from HackerRank.com and CodeWars.com
+
+I'm always up for a fun little challenge, and will be adding to this repo when I come across 
+something that fits in the category or maybe when a job interview has me code something different.
