@@ -12,12 +12,8 @@ function bubbleSort($array) {
         for ($i=0;$i<$counter-1;$i++) {
             if ($array[$i] > $array[$i+1]) {
                 // swap position
-                // $t1 = $array[$i+1];
-                // $array[$i+1] = $array[$i];
-                // $array[$i] = $t1;
                 [$array[$i], $array[$i+1]] = [$array[$i+1], $array[$i]];
             }
-
         }
         $counter--;
     }
