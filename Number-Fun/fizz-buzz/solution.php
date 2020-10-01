@@ -8,15 +8,18 @@
 
 
 for ($i=1; $i<=100; $i++) {
-    $result = "";
+    $result = 0;
     if ($i % 3 == 0) {
       echo "Fizz";
+      $result++;
     } 
     if ($i % 5 == 0) {
         echo "Buzz";
+        $result++;
       } 
-    if ($result == "") {
-        echo " {$i} ";
+    if ($result == 0) {
+        echo "{$i}";
     }
+    echo " ";
 
 }
