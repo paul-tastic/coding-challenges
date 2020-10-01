@@ -18,7 +18,7 @@ for ($i=1; $i<=100; $i++) {
         $result++;
       } 
     if ($result == 0) {
-        echo "{$i}";
+        echo $i;
     }
     echo " ";
 
